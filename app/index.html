@@ -4,20 +4,26 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Главная страница</title>
+	
 	<!--SEO-->
 	<meta name="description" content="site my partfolio">
 	<meta name="keywords" content="portfolio">
 	<meta name="autor" content="Denis Nogin">
-	<!-->favicon.ico</!-->
+	<!--favicon.ico-->
 	<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">-->
 
-	<!-->bower CSS</!-->
+	<!--FONTS-->
+	<link rel="stylesheet" href="font/fira.css">
+	<link rel="stylesheet" href="font/proximanovacond-semibold.css">
+	
+	<!--bower CSS -->
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
-	<!-->CSS</!-->
+
+	<!--CSS-->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/about-me.css">
-	<!-->modernizr</!-->
+	<!--modernizr-->
 	<script src=""></script>
 </head>
 <body>
@@ -27,9 +33,135 @@
 <div class="wrapper">
 	<div class="main-content">
 		<header class="page-header">
-			<div class="container-big"></div>
+			<div class="container-big">
+			<!--логотип-->
+				<a class="header-logo-link">
+					<img src="img/logo.png" alt="logo" class="logo-img">
+						<span class="header-logo-text">Сайт портфолио</span>
+				</a>
+				<!--конец логотип-->
+				<!--Соцальные иконки-->
+				<ul class="socials">
+					<li class="socials-item">
+						<a href="https://vk.com/loftschoolru" target="blank" class="socials-link vk">vk.com <!--Добавляем к ссылкам содержимое, никогда не оставляем пустыми-->
+						</a>
+					</li>
+					<li class="socials-item">
+						<a href="https://twitter.com/lof_tblog" target="blank" class="socials-link tw">twitter.com <!--Добавляем к ссылкам содержимое, никогда не оставляем пустыми-->
+						</a>	
+					</li>
+					<li class="socials-item">
+						<a href="https://ru-ru.facebook.com/loftblog" target="blank" class="socials-link fb">facebook.com <!--Добавляем к ссылкам содержимое, никогда не оставляем пустыми-->
+						</a>	
+					</li>
+					<li class="socials-item">
+						<a href="https://github.com/dentik77/" target="blank" class="socials-link vk">github.com<!--Добавляем к ссылкам содержимое, никогда не оставляем пустыми-->
+						</a>	
+					</li>
+				</ul>
+				<!--конец социальные иконки-->
+			</div>
 		</header>
+		<!--Левый сайтбар -->
+		<div class="container">
+			<aside class="sidebar"> <!--HTML5 тег используйщиеся для реализации сайтбара-->
+			<!--Навигация-->
+				<nav class="navigation">
+					<ul class="navigation-list">
+						<li class="navigation-item current"><!--класс current используется для текущего пункта меню чтобы его стилизовать-->
+							<a href="#" class="navigation-link">Обо мне</a>
+						</li>
+						<li class="navigation-item">
+							<a href="/my-work.html" class="navigation-link">Мои работы</a>
+						</li>
+						<li class="navigation-item">
+							<a href="/contact-me.html" class="navigation-link">Связаться со мной</a>
+						</li>
+					</ul>
+				</nav>
+				<!--Конец навигации-->
+				<!--Контакты-->
+				<address class="contacts">
+					<ul class="contacts-list">
+						<li class="contacts1">Контакты</li>
+						<li class="post">
+							<a href="mailto:den_nogin@mail.ru?subject=Вопрос с сайта" class="contacts-link">den_nogin@mail.ru</a>
+						</li>
+						<li class="tell">
+							<a href="tel:+79288547469" class="contacts-tell">+79288547469</a>
+						</li>
+						<li class="skype">
+							<a href="skype:camylot77" class="contacts-skype">camylot77</a>
+						</li>
+					</ul>							
+				</address>
+				<!--Конец контакты-->
+			</aside>
+			<!--ИЗМЕНЯЕМЫЙ КОНТЕНТ -->
 
+			<!--ИЗМЕНЯЕМЫЙ КОНТЕНТ -->
+			<div class="variable-content">
+				<!--Первый блок -->
+				<section class="aboutbox">
+					<h2 class="aboutbox-header">Основная информация</h2> 
+					<div class="aboutbox-body clearfix">
+						<div class="image-wrap">
+						<div class="avatar-box">
+							<img src="img/my-foto-2.png" alt="Денис Ногин" class="avatar">
+						</div>
+						</div>
+						<div class="worksheet-wrap">
+							<ul class="worksheet-list">
+								<li class="worksheet-item clearfix">
+									<div class="worksheet-what">Меня зовут</div>
+									<div class="worksheet-info">Денис Ногин</div>
+								</li>
+								<li class="worksheet-item clearfix">
+									<div class="worksheet-what">Мой возраст</div>
+									<div class="worksheet-info">38 лет</div>
+								</li>
+								<li class="worksheet-item clearfix">
+									<div class="worksheet-what">Мой город</div>
+									<div class="worksheet-info">Туапсе</div>
+								</li>
+								<li class="worksheet-item clearfix">
+									<div class="worksheet-what">Моя специализация</div>
+									<div class="worksheet-info"> FRONTEND-разработка</div>
+								</li>
+								<li class="worksheet-item clearfix">
+									<div class="worksheet-what">Ключевые навыки:</div>
+									<div class="worksheet-info skills">
+										<ul class="skill-list">
+											<li class="skill-item">html</li>
+											<li class="skill-item">css</li>
+											<li class="skill-item">javascript</li>
+											<li class="skill-item">gulp</li>
+											<li class="skill-item">git</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div> 		 
+				</section>
+				<!--Коней Первый блок -->
+				<!--Второй блок -->
+				<section class="aboutbox">
+					
+				</section>
+				<!--Коней Второй блок -->
+				<!--Третий блок --> 
+				<section class="aboutbox">
+					
+				</section> 
+				<!--Коней Третий блок --> 
+
+			</div>	
+
+
+			<!--КОНЕЦ ИЗМЕНЯЕМЫЙ КОНТЕНТ -->
+		</div>
+		
 	</div>
 </div>
 
