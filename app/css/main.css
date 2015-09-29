@@ -3,7 +3,7 @@ html {
 }
 body {
 	height: 100%;
-	background: url(../img/pattern.png) repeat;
+	background: url(../img/comppattern2.png) repeat;
 	font: normal 1em 'fira_sanslight';
 	color: #4a545d;
 }
@@ -13,7 +13,7 @@ body {
 	min-height: 100%;
 	min-width: 970px; /*обязательно указать минимальную ширину примерно на ширину сайта*/
 	height: auto!important;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 .wrapper:after {
 	content: "";
@@ -67,8 +67,8 @@ body {
 .socials .socials-item {
 	list-style: none;
 	display: inline-block;
-	height: 47px;
-	width: 47px;
+	height: 57px;
+	width: 57px;
 	margin-left: 19px; /*Отступ у таких элементов всегда слево*/
 }
 .socials .socials-item:first-child {
@@ -80,10 +80,40 @@ body {
 	height: 100%;
 	width: 100%;
 	text-indent: -9999px; /*Прячим текст с помощью отрицательного отступа*/
-	background: url(../img/socials.png) no-repeat;
+	background: url(../img/spritesheet.png) no-repeat;
+
+    /*background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;*/
 
 }
-.socials .socials-link-vk {background-position: -2px -3px;}
+
+.socials-item .vk {
+	background-position: -10px -144px;
+}
+.socials-item .tw {
+	background-position: -144px -10px;
+}
+.socials-item .fb {
+	background-position: -10px -10px;
+}
+.socials-item .gt {
+	background-position: -10px -77px;
+}
+.socials-item .vk:hover {
+	background-position: -77px -144px;
+}
+.socials-item .tw:hover {
+	background-position: -144px -77px;
+}
+.socials-item .fb:hover {
+	background-position: -77px -10px;
+}
+.socials-item .gt:hover {
+	background-position: -77px -77px;
+}
+/*.socials .socials-link-vk {background-position: -10px -144px;}
 .socials .socials-link-tw {background-position: -71px -3px;}
 .socials .socials-link-fb {background-position: -140px -3px;}
 .socials .socials-link-gt {background-position: -209px -3px;}
@@ -148,6 +178,7 @@ padding: 0;
 	border-radius: 4px;
 	margin-bottom: 23px;
 	background: #eff3f7;
+	font-style: normal;
 }
 .contacts .contacts-list {
 	list-style: none;/*убирает точки слево перед ссылкой*/
@@ -161,15 +192,14 @@ padding: 0;
 	color: #fbfcfd;
 	background: #3ba8c0;
 	padding-left: 15px;
-	padding-top: 9px
-	
+	padding-top: 9px;
 }
 .contacts .contacts-link {
 	/*font-family: 'fira_sansbook';*/
 	color: #fbfcfd;
 	display: block;
-	text-decoration: none;
-	background: url(../img/post.png) no-repeat;
+	text-decoration: none;/*Убирает*/
+	background: url(../img/post.png) left center no-repeat;
 	text-align: center;
 	margin-left: 43px;
 }
@@ -183,12 +213,13 @@ padding: 0;
 	text-align: center;
 }
 .contacts .contacts-tell {
-	
-background: url(../img/tel.png) no-repeat;
+background: url(../img/tel.png) left center no-repeat;
 display: block;
 margin-left: 43px;
 color: #fbfcfd;
 padding-top: 9px;
+
+
 }
 .contacts .skype {
 	background: #51daf8;
@@ -198,7 +229,7 @@ padding-top: 9px;
 .contacts .contacts-skype {
 	display: block;
 	text-decoration: none;
-	background: url(../img/skype.png) no-repeat;
+	background: url(../img/skype.png) left center no-repeat;
 	margin-left: 43px;
 	color: #fbfcfd;
 	padding-top: 9px;

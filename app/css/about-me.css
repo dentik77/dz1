@@ -43,6 +43,7 @@
 	float: right;
 	width: 422px;
 	} 
+
 .clearfix:before,
 .clearfix:after {
 	content: " ";
@@ -51,9 +52,7 @@
 .clearfix:after {
 	clear: both;
 }
-.worksheet-item clearfix {
-
-	} /*Класс каждого li*/
+	/*Класс каждого li*/
 
 
 
@@ -97,8 +96,47 @@
 	margin-left: 6px;
 }
 
+/*Второй и третий блок*/
+.abotbox .aboutbox-list {
+	float: right;
+	width: 556px;
+	list-style: none;
+	}
+.aboutbox .aboutbox-item:last-child {
+	margin-bottom: 0;
+}
+.aboutbox .aboutbox-item {
+	padding: 0 0 0 76px;
+	margin-bottom: 20px;
+}
+.aboutbox-item .where {
+	font-family: 'fira_sansbook';
+	font-size: 16px;
+	}
+.aboutbox-item .period {
+	font-family: 'fira_sansblight';
+	font-size: 15px;
+	line-height: 1; /*межстрочный интервал*/
+}
+ .icon-work {
+	background: url(../img/portf.png) 9px center no-repeat;
+	display: block;
+	margin-left: 43px;
+} 
+.icon-vyz {
+	background: url(../img/school.png) 9px center no-repeat;
+	display: block;
+	margin-left: 43px;
+} 
+ .icon-cours {
+	background: url(../img/lshcool.png) 9px center no-repeat;
+	display: block;
+	margin-left: 43px;
+} 
 
 
+}
+/*Конец - Второй и третий блок*/
 
 
 
