@@ -1,0 +1,85 @@
+
+
+ .site-list {
+ 	margin: 0 auto;
+	padding-left: 23px;
+	padding-top: 20px;
+	min-width: 192px;
+	}
+.site-list  .sites {
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	width: 182px;
+	height: 127px;
+	margin-left: 10px;
+	margin-bottom: 100px;
+
+ }
+ .ssilka {
+ 	padding-top: 50px;
+ }
+.site-list .site-text1 {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(../img/site1.png) no-repeat;
+}
+.site-list .site-text2 {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(../img/site2.png) no-repeat;
+	border: 5px red;
+	border-color: red; 
+}
+.site-list .site-text3 {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(../img/site3.png) no-repeat;
+}
+.site-list .site-text4 {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(../img/site4.png) no-repeat;
+}
+.site-list .site-text5 {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(../img/site5.png) no-repeat;
+	}
+.work-text {
+	font-size: 13px;
+	line-height: 1;/*междустрочный интервал*/
+
+
+/*.sites{
+
+	display: inline-block;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+
+}
+
+.site-bag {
+	text-decoration: none;
+}
+.site-text {
+	text-decoration: none;
+	font-size: 11px;
+}
+.work-image {
+	display: block;
+	padding-left: 23px;
+	text-align: center;
+	
+}
+.work-text {
+	font-size: 13px;
+	line-height: 1;
+
+}
