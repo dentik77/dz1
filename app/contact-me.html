@@ -36,7 +36,7 @@
 		<header class="page-header">
 			<div class="container-big">
 			<!--логотип-->
-				<a class="header-logo-link" href="#">
+				<a class="header-logo-link">
 					<img src="img/logo.png" alt="logo" class="logo-img">
 						<span class="header-logo-text">Сайт портфолио</span>
 				</a>
@@ -69,13 +69,13 @@
 			<!--Навигация-->
 				<nav class="navigation">
 					<ul class="navigation-list">
-						<li class="navigation-item current"><!--класс current используется для текущего пункта меню чтобы его стилизовать-->
+						<li class="navigation-item"><!--класс current используется для текущего пункта меню чтобы его стилизовать-->
 							<a href="#" class="navigation-link">Обо мне</a>
 						</li>
 						<li class="navigation-item">
 							<a href="/my-work.html" class="navigation-link">Мои работы</a>
 						</li>
-						<li class="navigation-item">
+						<li class="navigation-item current">
 							<a href="/contact-me.html" class="navigation-link">Связаться со мной</a>
 						</li>
 					</ul>
@@ -107,94 +107,42 @@
 			<div class="variable-content">
 				<!--Первый блок -->
 				<section class="aboutbox">
-					<h2 class="aboutbox-header">Основная информация</h2> 
+				<div class="content3-header">
+					<h2><span class="content3-header text">У вас интересный проект? Напишите мне</span> </h2>
+				
+					 </div>
+
 					<div class="aboutbox-body clearfix">
-						<div class="image-wrap">
-						<div class="avatar-box">
-							<img src="img/my-foto-2.png" alt="Денис Ногин" class="avatar">
-						</div>
-						</div>
-						<div class="worksheet-wrap">
-							<ul class="worksheet-list">
-								<li class="worksheet-item clearfix">
-									<div class="worksheet-what">Меня зовут</div>
-									<div class="worksheet-info">Денис Ногин</div>
-								</li>
-								<li class="worksheet-item clearfix">
-									<div class="worksheet-what">Мой возраст</div>
-									<div class="worksheet-info">38 лет</div>
-								</li>
-								<li class="worksheet-item clearfix">
-									<div class="worksheet-what">Мой город</div>
-									<div class="worksheet-info">Туапсе</div>
-								</li>
-								<li class="worksheet-item clearfix">
-									<div class="worksheet-what">Моя специализация</div>
-									<div class="worksheet-info"> FRONTEND-разработка</div>
-								</li>
-								<li class="worksheet-item clearfix">
-									<div class="worksheet-what">Ключевые навыки:</div>
-									<div class="worksheet-info skills">
-										<ul class="skill-list">
-											<li class="skill-item">html</li>
-											<li class="skill-item">css</li>
-											<li class="skill-item">javascript</li>
-											<li class="skill-item">gulp</li>
-											<li class="skill-item">git</li>
-										</ul>
-									</div>
-								</li>
-							</ul>
+						<div class="content-line"></div>
+						<div class="content-form">
+							<form action='mail2.php' method="POST" name="form" target="blank">
+
+								<span class="form-name">
+									<p class="form-name1">Имя</p>						
+										<input name="name" type="text" size="20" class="form-name3"><span class="form-name2">Как к вам обращаться</span>
+									<p ></p>
+								</span>
+								<span class="form-mail">
+									<p class="form-mail1">Email</p>
+									<input name="email" type="text" size="20" class="form-name3"><span class="form-name2">Куда мне писать</span>
+								</span>
+								<p class="form-text1">Сообщение</p>
+									<textarea name="mess" id="" cols="53" rows="7"></textarea>
+									<span class="form-name2">Куда мне писать</span>
+							</form>
+							<div class="form-text">
+									
+								</div>
+
+							<div class="form-mail"></div>
+								
 						</div>
 					</div> 		 
 				</section>
 				<!--Коней Первый блок -->
-				<!--Второй блок -->
-				<section class="aboutbox">
-					<h2 class="aboutbox-header">Опыт работы</h2>
-					<div class="aboutbox-body">
-						<ul class="aboutbox-list">
-							<li class="aboutbox-item icon-work">
-								<div class="where">ООО РН-ТНПЗ -КИПиА -приборист</div>
-								<div class="period">июнь 1999 - май 2001</div>
-							</li>
-							<li li class="aboutbox-item icon-work">
-								<div class="where">ОВО при УВД г.Туапсе - инженер ПЦО</div>
-								<div class="period">май 2001 - июнь 2006</div>
-							</li>
-							<li class="aboutbox-item icon-work">
-								<div class="where">ФГУП "Охрана" МВД РФ - ст.инженер ОПС</div>
-								<div class="period">июнь 2006 - по настоящее время</div>
-							</li>
-							<li class="aboutbox-item icon-work">
-								<div class="where">Группа компаний "Delta" ЧОП "Охрана-Плюс"</div>
-								<div class="period">май 2013 - по настоящее время</div>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<!--Коней Второй блок -->
 				
-				<!--Третий блок --> 
-				<section class="aboutbox">
-					<h2 class="aboutbox-header">Образование</h2>
-					<div class="aboutbox-body">	
-						<ul class="aboutbox-list">
-							<li li class="aboutbox-item icon-vyz">
-								<div class="where">ТРТУ - Промышленная электроника</div>
-								<div class="period">сентябрь 1994 - май 1999</div>
-							</li>
-							<li li class="aboutbox-item icon-vyz">
-								<div class="where">ТРТУ - Экономика предприятия </div>
-								<div class="period">сентябрь 1997 - июнь 1998</div>
-							</li>
-							<li li class="aboutbox-item icon-cours">
-								<div class="where">Курсы Loftshcool - frontend-разработка</div>
-								<div class="period">сентябрь 2015 - ноябрь 2015</div>
-							</li>
-						</ul>
-					</div>	
-				</section> 
+				
+				
 				<!--Коней Третий блок --> 
 			</div>
 			<!--КОНЕЦ ИЗМЕНЯЕМЫЙ КОНТЕНТ -->
