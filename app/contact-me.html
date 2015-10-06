@@ -118,23 +118,32 @@
 							<form action='mail2.php' method="POST" name="form" target="blank">
 
 								<span class="form-name">
-									<p class="form-name1">Имя</p>						
-										<input name="name" type="text" size="20" class="form-name3"><span class="form-name2">Как к вам обращаться</span>
-									<p ></p>
+								<label for="name">Имя</label>
+									<!--<p class="form-name1">Имя</p>-->						
+										<input name="name" type="text" size="20" autofocus="" placeholder="Как к вам обращаться" class="form-name2">
 								</span>
 								<span class="form-mail">
-									<p class="form-mail1">Email</p>
-									<input name="email" type="text" size="20" class="form-name3"><span class="form-name2">Куда мне писать</span>
+								<label for="email">Email</label>
+									<!--<p class="form-mail1">Email</p>-->
+										<input name="email" type="text" size="20" class="form-name2" autofocus="" placeholder="Куда мне писать" >
 								</span>
-								<p class="form-text1">Сообщение</p>
-									<textarea name="mess" id="" cols="53" rows="7"></textarea>
-									<span class="form-name2">Куда мне писать</span>
-							</form>
-							<div class="form-text">
+								<label for="messedg">Сообщение</label>
+								<!--<p class="form-text1">Сообщение</p>-->
+									<textarea name="mess" id="" cols="53" rows="7"  placeholder="кратко в чем суть"></textarea>
 									
+						
+						<label for="captcha">Ведите код указанный на картинке</label>
+							<div class="captcha"></div>
+								<input type="text" id="captcha" placeholder="Введите код" name="captcha" class="captcha1">
+						
+								<div class="button">
+									<input type="submit" value="Отправить" class="button1">
+								
+									<input type="reset" value="Очистить" class="button2">
 								</div>
-
-							<div class="form-mail"></div>
+									
+							
+							</form>	
 								
 						</div>
 					</div> 		 

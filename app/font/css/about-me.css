@@ -1,4 +1,4 @@
-/*Общие стили для всех секций*/
+/*РћР±С‰РёРµ СЃС‚РёР»Рё РґР»СЏ РІСЃРµС… СЃРµРєС†РёР№*/
 .aboutbox {
 	background: #eff3f7;
 	border-radius: 4px;
@@ -20,9 +20,9 @@
 	padding-bottom: 40px;
 
 }
-/*КОНЕЦ -Общие стили для всех секций*/
+/*РљРћРќР•Р¦ -РћР±С‰РёРµ СЃС‚РёР»Рё РґР»СЏ РІСЃРµС… СЃРµРєС†РёР№*/
 
-/*Лицо*/
+/*Р›РёС†Рѕ*/
 .image-wrap {
 	float: left;
 	margin-left: 55px;
@@ -38,7 +38,7 @@
 .avatar {
 	width: 100%;
 }
-/*Класс ul*/
+/*РљР»Р°СЃСЃ ul*/
 .aboutbox .worksheet-list {       
 	float: right;
 	width: 422px;
@@ -52,15 +52,15 @@
 .clearfix:after {
 	clear: both;
 }
-	/*Класс каждого li*/
+	/*РљР»Р°СЃСЃ РєР°Р¶РґРѕРіРѕ li*/
 
 
 
-/*Список анкетных данных*/
+/*РЎРїРёСЃРѕРє Р°РЅРєРµС‚РЅС‹С… РґР°РЅРЅС‹С…*/
 .aboutbox .worksheet-wrap {
 	float: right;
 	width: 400px;
-	margin: 0 auto; /*центрирование по горизонтали*/
+	margin: 0 auto; /*С†РµРЅС‚СЂРёСЂРѕРІР°РЅРёРµ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё*/
 }
 .worksheet-list {
 	list-style: none;
@@ -96,7 +96,7 @@
 	margin-left: 6px;
 }
 
-/*Второй и третий блок*/
+/*Р’С‚РѕСЂРѕР№ Рё С‚СЂРµС‚РёР№ Р±Р»РѕРє*/
 .abotbox .aboutbox-list {
 	float: right;
 	width: 556px;
@@ -116,7 +116,7 @@
 .aboutbox-item .period {
 	font-family: 'fira_sansblight';
 	font-size: 15px;
-	line-height: 1; /*межстрочный интервал*/
+	line-height: 1; /*РјРµР¶СЃС‚СЂРѕС‡РЅС‹Р№ РёРЅС‚РµСЂРІР°Р»*/
 }
  .icon-work {
 	background: url(../img/portf.png) 9px center no-repeat;
@@ -136,7 +136,7 @@
 
 
 }
-/*Конец - Второй и третий блок*/
+/*РљРѕРЅРµС† - Р’С‚РѕСЂРѕР№ Рё С‚СЂРµС‚РёР№ Р±Р»РѕРє*/
 
 
 

@@ -22,14 +22,9 @@ body {
 }
 .page-footer {
 	min-width: 970px;/*обязательно указать минимальную ширину примерно на ширину сайта*/
-	/*height: auto!important;*/
+	height: auto!important;
 	height: 80px;
 	margin-top: -80px;
-	/*линия+фон футер*/
-	background: #eff3f7 url(../img/line.png) top center no-repeat;
-	font-family: 'fira_sanslight';
-	color: #4a545d;
-
 }
 /*прибить футер к низу - конец*/
 
@@ -251,7 +246,11 @@ padding-top: 9px;
 }
 
 /*footer*/
-
+.page-footer {
+	background: #eff3f7 url(../img/line.png) top center no-repeat;
+	font-family: 'fira_sanslight';
+	color: #4a545d;
+}
 .page-footer .container {
 	padding-top: 23px;
 	position: relative;
