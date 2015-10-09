@@ -1,0 +1,113 @@
+section.add-project {
+	background-color: #eff3f7;
+	border-radius: 4px;
+	box-shadow: 0 6px 12.5px 0.5px rgba(13, 16, 7, 0.35);
+	/*height: 493px;*/
+	width: 370px;
+	position: absolute;
+	z-index: 100;
+
+}
+p.add-project-title {
+	background-color: #48cbe8;
+	border-bottom: 9px solid #67dffa;
+	border-radius: 4px 4px 0 0;
+	color: white;
+	font-family: "Fira Sans Regular";
+	font-size: 25px;
+	font-weight: 400;
+	padding: 12px;
+}
+.close_popup {
+	background: url(../img/close.png) no-repeat scroll 0 0;
+	color: #fff;
+	float: right;
+	height: 26px;
+	width: 26px;
+	margin: 0 -10px 0 0;
+	padding: 0px;
+	text-decoration: none;
+
+}
+
+form {
+	padding: 0 15px ;
+
+}
+label {
+	color: #959aa8;
+	display: block;
+	font-family: "Fira Sans Book";
+	font-size: 20px;
+	font-weight: 300;
+}
+input[type="text"], input[type="url"], textarea {
+	background-color: #fbfcfd;
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+	max-width: 320px;
+	padding: 10px 9px;
+	width: 100%;
+	color: #48cbe8;
+
+}
+input {
+	line-height: normal;
+	margin-bottom: 10px;
+
+}
+
+.file_decor {
+	position: relative;
+	width: 320px;
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+	color: #48cbe8;
+	cursor: pointer;
+	height: 38px;
+	margin-bottom: 9px;
+	overflow: hidden;	
+}
+.decor_p {
+	float: left;
+	font-size: 17px;
+	margin: 0 0 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.load_scrin {
+	background: #48cbe8 url("../img/load.png") no-repeat scroll 10px 6px;
+	cursor: pointer;
+	float: right;
+	height: 40px;
+	width: 52px;	
+}
+.fila_decor .name_load {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+}
+.name_load {
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+	color: #48cbe8;
+	height: 38px;
+	margin-bottom: 9px;
+	padding-left: 60px;
+	width: 320px;
+}
+input.name_project {
+	color: #48cbe8;
+}
+.buttom_project {
+	background: #48cbe8 url(../img/button-dobav.png) no-repeat scroll -5px -48px;
+	/*border: medium none;*/
+	height: 33px;
+	margin-bottom: 22px;
+	margin-left: 100px;
+	width: 140px;
+	border-radius: 4px;
+	font-size: 20px;
+	color: white;
+}

@@ -20,7 +20,52 @@ a {
 	text-decoration: none;/*Убирает подчеркивание на ссылке*/
 	color: #3ba8c0;
 }
+/*Офорление Добавить проект*/
+ .projekt {
 
+	background: #edf8fc none repeat scroll 0 0;
+	border: 2px dashed #3ba8c0;
+	border-radius: 4px;
+	height: 125px;
+	width: 179px;s
+	margin: 15px;
+	overflow: hidden;
+	position: relative;
+
+	
+}
+
+.dobproject {
+	left: 40%;
+	top: 30%;
+	position: absolute;
+	text-transform: translate (-50%, -50%);
+}
+.dobprojekt-text {
+	
+	padding-top: 60px;s
+}
+
+/*Конец Офорление Добавить проект*/
+
+/*popup*/
+.modal-wrapper {
+	background: #eff3f7 none repeat scroll 0 0;
+	border-radius: 4px;
+	/*box-sizing: border-box;*/
+	left: 50%;
+	top: 50%;
+	margin-left: -183px;
+	margin-top: -250px;
+	min-height: 70px;
+	opacity: 1;
+	overflow: hidden;
+	position: absolute;
+	width: 364px;
+	z-index: 100;
+}
+
+/*конец popup*/
  .ssilka {
  	padding-top: 50px;
  }
@@ -42,6 +87,9 @@ a {
 	 border: 3px #3ba8c0 solid;
 	border-radius: 4px;
 	/*color: #3ba8c0;*/
+}
+.dobprojekt-text {
+	text-align: center;
 }
 
 .work-text {
