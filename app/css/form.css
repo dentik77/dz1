@@ -1,3 +1,6 @@
+#modal {
+	display: none;
+}
 section.add-project {
 	background-color: #eff3f7;
 	border-radius: 4px;
@@ -17,6 +20,7 @@ p.add-project-title {
 	font-size: 25px;
 	font-weight: 400;
 	padding: 12px;
+	margin-top: 0;
 }
 .close_popup {
 	background: url(../img/close.png) no-repeat scroll 0 0;
@@ -41,7 +45,7 @@ label {
 	font-size: 20px;
 	font-weight: 300;
 }
-input[type="text"], input[type="url"], textarea {
+input[type="text"], input[type="url"], input[type="password"], textarea {
 	background-color: #fbfcfd;
 	border: 1px solid #48cbe8;
 	border-radius: 4px;
@@ -101,7 +105,8 @@ input.name_project {
 	color: #48cbe8;
 }
 .buttom_project {
-	background: #48cbe8 url(../img/button-dobav.png) no-repeat scroll -5px -48px;
+	background: url(../img/button-dobav.png) no-repeat scroll -0px -0px;
+	padding-left: 138px;
 	/*border: medium none;*/
 	height: 33px;
 	margin-bottom: 22px;
@@ -110,4 +115,5 @@ input.name_project {
 	border-radius: 4px;
 	font-size: 20px;
 	color: white;
+	margin-top: 30px;
 }

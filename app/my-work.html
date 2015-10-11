@@ -15,7 +15,7 @@
 
 	<!--FONTS-->
 	<link rel="stylesheet" href="font/fira.css">
-	<link rel="stylesheet" href="font/proximanovacond-semibold.css">
+	
 	
 	<!--bower CSS -->
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
@@ -24,8 +24,9 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/about-me.css">
 	<link rel="stylesheet" href="css/my-work.css">
+	<link rel="stylesheet" href="css/form.css">
 	<!--modernizr-->
-	<script src=""></script>
+	<script src="bower/modernizr/modernizr.js"></script>
 </head>
 <body>
 <!--[if lt IE 7]>
@@ -109,12 +110,17 @@
 						
 							<div class="my-site">
 								<ul class="site-list">
-									<li class="sites">							
+									<li class="sites">
+										<div class="hover-effect">							<div class="effect">
+												<a class="linkup" title="Подробнее о проекте" href="">Подробнее...</a>
+											</div>
 											<img src="img/site1.png" alt="site1" class="site-text1">
+											
+										</div>		
 											<a href="#" class="ssilka"> www.site1.ru</a>
 											<p class="work-text">Информация о проекте 1 превью 2 строки....</p>
 																				
-										</li>
+									</li>
 										<li class="sites">							
 											<img src="img/site2.png" alt="site2" class="site-text1"> <a href="">www.site2.ru</a>
 											<p class="work-text">Информация о проекте 1 превью 2 строки....</p>
@@ -135,7 +141,7 @@
 										<!--Добавить проект -->
 										<li class="sites">							
 											<div class="projekt">
-												<a id="add-new-item" href="/form.html"><img src="img/dobproect.png" height="32" width="32" alt="dobproject" class="dobproject"><p class="dobprojekt-text">Добавить проект</p>
+												<a id="add-new-item" href="#"><img src="img/dobproect.png" height="32" width="32" alt="dobproject" class="dobproject"><p class="dobprojekt-text">Добавить проект</p>
 												</a>
 											</div>
 
@@ -172,9 +178,39 @@
 		</div>
 	</footer>
 
+	<!--Создаем всплывающую форму -->
+	<section id="modal" class="add-project">
+	<p class="add-project-title">Добавление проекта
+	<a class="close_popup" href="my-work.html"></a>
+	</p>
+											
+		<form class="form" action="">
+			<label for="name">Название проекта
+				<input type="text" id="name" required="" autofocus="" name="name" placeholder="Введите название" class="name_project">
+			<label for="choice-file_input">Картинка проекта</label>
+				<div class="file_decor">
+					<p class="decor_p">Загрузить картинку</p>
+					<div class="load_scrin">
+					<input type="file" id="" class="name_load" plasceholder="Введите название"></div>
+				</div>
+
+			</label>
+				
+			<label for="project-url">URL проекта</label>
+					<input type="url" id="project-url" required="" placeholder="Добавить ссылку" name="projecturl" class="name_project">
+			<label for="messege">Описание</label>
+			<textarea id="message" placeholder="Пара слов о Вашем проекте" cols="30" rows="7" name=""></textarea>
+					<input class="buttom_project" type="submit">
+		</form>
+													
+											
+	</section>
+
 
 
 	<script src="bower/jquery/jquery.js"></script>
+	<script src="bower/bPopup/jquery.bpopup.js"></script>
 	<script src="js/main.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Главная страница</title>
+	
+	<!--SEO-->
+	<meta name="description" content="site my partfolio">
+	<meta name="keywords" content="portfolio">
+	<meta name="autor" content="Denis Nogin">
+	<!--favicon.ico-->
+	<link rel="shortcut icon" href="http://portfproff.ru/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="http://portfproff.ru/favicon.ico" type="image/x-icon">
+
+	<!--FONTS-->
+	<link rel="stylesheet" href="font/fira.css">
+	<!--<link rel="stylesheet" href="font/proximanovacond-semibold.css">-->
+	
+	<!--bower CSS -->
+	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
+
+	<!--CSS-->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/about-me.css">
+	<link rel="stylesheet" href="css/my-work.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/login.css">
+	<!--modernizr-->
+	<script src="bower/modernizr/modernizr.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<!--Создаем  форму авторизации -->
+	<div class="form-content">
+		<section id="modal" class="add-project" style="top: 50px; left: 489px; display: block;">
+		<p class="add-project-title">Авторизуйтесь
+
+		</p>
+												
+			<form class="form" action="">
+				<label for="name">Логин
+					<input type="text" id="name" required="" autofocus="" name="login" placeholder="Введите логин" class="name_project">
+				
+					
+				<label for="project-url">Пароль</label>
+						<input type="password" id="project-url" required="" placeholder="Введите пароль" name="pass" class="name_project">
+				
+						<input class="buttom_project" type="submit">
+			</form>
+		</section>	
+	</div>				
+</div>		
+	<footer class="page-footer">
+			<div class="container">
+				<div class="lock">
+					<a href="/login.html" class="lock-inner">Войти</a>
+				</div>
+				<div class="copyright">@ 2015, Это сайт Ногина Дениса, пожалуйста не копируйте и не воруйте его</div>
+			</div>
+		</footer>
+
+	<script src="bower/jquery/jquery.js"></script>
+	<script src="js/main.js"></script>	
+</body>
+</html>

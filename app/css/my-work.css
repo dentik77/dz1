@@ -96,6 +96,52 @@ a {
 	font-size: 13px;
 	line-height: 1;/*междустрочный интервал*/
 }
+/*Hover effect*/
+
+
+}
+ .hover-effect {
+	
+	border-radius: 4px;
+	margin-bottom: 10px;
+	position: relative;
+	/*display: none;
+	/*width: 100px;*/
+	
+}
+ .effect {
+
+	background: rgba(76, 181, 232, 0.7) none repeat scroll 0 0;
+	height: 130px;
+	opacity: 0;
+	position: absolute;
+	transition: all 0.4s linear 0s;
+	width: 183px;
+	z-index: 5;
+}
+ .linkup {
+	border: 2px solid #fff;
+	border-radius: 4px;
+	color: #eff3f7;
+	display: inline-block;
+	font-family: "Fira Sans book";
+	font-size: 12px;
+	font-weight: 300;
+	margin-top: 50px;
+	padding: 2px 5px;
+	text-decoration: none;
+
+}
+.linkup:hover {
+	background: #fff none repeat scroll 0 0;
+	color: rgba(76, 181, 232, 0.7);
+	cursor: pointer;
+
+}
+a:active, a:hover {
+	outline: 0 none;
+}
+/*END Hover effect*/
 
 /*Навигация текущий пункт меню*/
 
@@ -168,7 +214,7 @@ input {
 	width: 182px;
 }
 input, textarea {
-	background-color: #fbfcfd;
+	/*background-color: #fbfcfd;*/
 	border: 1px solid #28cbe8;
 	border-radius: 2px; 
 	padding: 15px 0 15px 10px;
